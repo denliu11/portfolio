@@ -31,7 +31,7 @@ const StyledLinkWrapper = styled.div`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--moss);
       transform: translateY(-3px);
     }
   }

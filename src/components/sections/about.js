@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--white);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -80,9 +80,9 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
+      z-index: 2;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -105,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--moss);
       top: 14px;
       left: 14px;
       z-index: -1;
