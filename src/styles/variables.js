@@ -14,7 +14,7 @@ const variables = css`
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
     --green: #000000;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --green-tint: rgb(89, 133, 119);
     --moss: rgb(204, 212, 181);
     --blue: #57cbff;
     --dark-beige: #898076;

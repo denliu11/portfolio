@@ -6,7 +6,7 @@ const IconFolder = () => (
     role="img"
     viewBox="0 0 24 24"
     fill="none"
-    stroke="currentColor"
+    stroke="var(--white)"
     strokeWidth="1"
     strokeLinecap="round"
     strokeLinejoin="round"

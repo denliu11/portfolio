@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--white);
 
     &:hover,
     &:focus {
@@ -82,7 +82,6 @@ const StyledPic = styled.div`
       position: relative;
       z-index: 2;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
       transition: var(--transition);
     }
 
@@ -95,13 +94,6 @@ const StyledPic = styled.div`
       height: 100%;
       border-radius: var(--border-radius);
       transition: var(--transition);
-    }
-
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
     }
 
     &:after {
